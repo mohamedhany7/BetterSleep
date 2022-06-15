@@ -11,6 +11,7 @@
 		20160D3B28595814007000F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20160D3A28595814007000F6 /* ContentView.swift */; };
 		20160D3D28595817007000F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20160D3C28595817007000F6 /* Assets.xcassets */; };
 		20160D4028595817007000F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20160D3F28595817007000F6 /* Preview Assets.xcassets */; };
+		20160D4728595A4C007000F6 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 20160D4628595A4C007000F6 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		20160D3A28595814007000F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		20160D3C28595817007000F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20160D3F28595817007000F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		20160D4628595A4C007000F6 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				20160D3828595814007000F6 /* BetterSleepApp.swift */,
 				20160D3A28595814007000F6 /* ContentView.swift */,
+				20160D4628595A4C007000F6 /* SleepCalculator.mlmodel */,
 				20160D3C28595817007000F6 /* Assets.xcassets */,
 				20160D3E28595817007000F6 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20160D3B28595814007000F6 /* ContentView.swift in Sources */,
+				20160D4728595A4C007000F6 /* SleepCalculator.mlmodel in Sources */,
 				20160D3928595814007000F6 /* BetterSleepApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
